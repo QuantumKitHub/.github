@@ -61,7 +61,7 @@ jobs:
           using Pkg
           Pkg.add(PackageSpec(name="JuliaFormatter", version="${{ inputs.juliaformatter-version }}"))
           using JuliaFormatter
-          format("./${{ inputs.directory }}", SciMLStyle(), verbose=true)
+          format("./${{ inputs.directory }}", verbose=true)
 
       - name: "Check formatting"
         id: check-formatting
