@@ -61,6 +61,9 @@ on:
         description: "Prevent the workflow run from failing if/when the job fails"
         required: false
         type: boolean
+    secrets:
+      CODECOV_TOKEN:
+        required: true
 
 jobs:
   tests:
@@ -99,9 +102,9 @@ jobs:
           directories: "${{ inputs.coverage-directories }}"
 
       - name: "Report Coverage with Codecov"
-        uses: codecov/codecov-action@v4
-        if: "${{ inputs.coverage && github.event.pull_request.head.repo.full_name == github.repository }}"
+        uses: codecov/codecov-action@v5
+        if: "${{ inputs.coverage }}"
         with:
-          file: lcov.info
+          files: lcov.info
           token: "${{ secrets.CODECOV_TOKEN }}"
           fail_ci_if_error: true
