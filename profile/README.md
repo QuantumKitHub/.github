@@ -17,13 +17,13 @@ This is a GitHub organisation for the development of many related software packa
   </picture>
 </a>
 
-<a href="https://github.com/Jutho/TensorOperations.jl">
+<a href="https://github.com/QuantumKitHub/TensorOperations.jl">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKitHub&repo=TensorOperations.jl&show_owner=true&theme=dark">
     <img align="center" alt="TensorOperations.jl" src="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKitHub&repo=TensorOperations.jl&show_owner=true">
   </picture>
 </a>
-<a href="https://github.com/Jutho/TensorKit.jl">
+<a href="https://github.com/QuantumKitHub/TensorKit.jl">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKitHub&repo=TensorKit.jl&show_owner=true&theme=dark">
     <img align="center" alt="TensorKit.jl" src="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKitHub&repo=TensorKit.jl&show_owner=true">
