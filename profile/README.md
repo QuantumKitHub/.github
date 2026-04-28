@@ -17,7 +17,7 @@ quantum many-body systems.
 |---------|-------------|:-:|
 | [MPSKit.jl](https://github.com/QuantumKitHub/MPSKit.jl) | Simulating quantum many-body systems using Matrix Product States | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/MPSKit.jl/) |
 | [PEPSKit.jl](https://github.com/QuantumKitHub/PEPSKit.jl) | Algorithms for Projected Entangled Pair States | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/PEPSKit.jl/) |
-| [TNRKit.jl](https://github.com/QuantumKitHub/MPSKitModels.jl) | Algorithms for Tensor Network Renormalisation | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/TNRKit.jl/) |
+| [TNRKit.jl](https://github.com/QuantumKitHub/TNRKit.jl) | Algorithms for Tensor Network Renormalisation | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/TNRKit.jl/) |
 | [MPSKitModels.jl](https://github.com/QuantumKitHub/MPSKitModels.jl) | Pre-built models for MPSKit.jl | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/MPSKitModels.jl/) |
 
 ### Tensor Foundations
