@@ -25,11 +25,12 @@ quantum many-body systems.
 | Package | Description | |
 |---------|-------------|:-:|
 | [TensorKit.jl](https://github.com/QuantumKitHub/TensorKit.jl) | Large-scale tensor computations, with a hint of category theory | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/TensorKit.jl/) |
-| [StridedViews.jl](https://github.com/QuantumKitHub/StridedViews.jl) | Representing strided views into dense arrays | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/StridedViews.jl/) |
-| [Strided.jl](https://github.com/QuantumKitHub/Strided.jl) | Efficient operations on strided arrays | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/Strided.jl/) |
+| [VectorInterface.jl](https://github.com/QuantumKitHub/VectorInterface.jl) | A Julia interface for working with vector-like objects | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/VectorInterface.jl/) |
+| [StridedViews.jl](https://github.com/QuantumKitHub/StridedViews.jl) & [Strided.jl](https://github.com/QuantumKitHub/Strided.jl) | Representing strided views into dense arrays and efficient operations on them | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/Strided.jl/) |
 | [TensorOperations.jl](https://github.com/QuantumKitHub/TensorOperations.jl) | Tensor contractions and related operations | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/TensorOperations.jl/) |
 | [MatrixAlgebraKit.jl](https://github.com/QuantumKitHub/MatrixAlgebraKit.jl) | Extensible matrix algebra primitives | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/MatrixAlgebraKit.jl/) |
 | [SparseArrayKit.jl](https://github.com/QuantumKitHub/SparseArrayKit.jl) | Sparse multidimensional arrays (DOK format) with TensorOperations.jl support | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/SparseArrayKit.jl/) |
+| [BlockTensorKit.jl](https://github.com/QuantumKitHub/BlockTensorKit.jl) | TensorKit extension for working with block(sparse) TensorMaps | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/BlockTensorKit.jl/) |
 
 ### Symmetries & Categories
 
