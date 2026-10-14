@@ -1,15 +1,29 @@
+<div align="center">
+
 # QuantumKitHub
 
 **A Julia ecosystem for tensor networks and quantum many-body physics.**
 
-## About
+[![Docs hub](https://img.shields.io/badge/docs-ecosystem-4063D8)](https://quantumkithub.github.io/QuantumKitHubDocs.jl/dev/)
+[![Julia](https://img.shields.io/badge/julia-1.10+-389826)](https://julialang.org)
 
-QuantumKitHub develops and maintains a suite of interoperable Julia packages for
-large-scale tensor network computations. The ecosystem spans from low-level tensor
-contractions and symmetry-aware data structures to high-level algorithms for simulating
-quantum many-body systems.
+</div>
 
-## Ecosystem
+<table>
+<tr>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/TensorKit.jl"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QuantumKitHub/TensorKit.jl/main/docs/src/assets/logo-dark.svg"><img src="https://raw.githubusercontent.com/QuantumKitHub/TensorKit.jl/main/docs/src/assets/logo.svg" height="80" alt="TensorKit.jl"></picture></a><br><b><a href="https://github.com/QuantumKitHub/TensorKit.jl">TensorKit.jl</a></b><br><sub>Tensors with symmetries, a hint of category theory</sub><br><a href="https://quantumkithub.github.io/TensorKit.jl/stable/">docs</a></td>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/TensorOperations.jl"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QuantumKitHub/TensorOperations.jl/main/docs/src/assets/logo-dark.svg"><img src="https://raw.githubusercontent.com/QuantumKitHub/TensorOperations.jl/main/docs/src/assets/logo.svg" height="80" alt="TensorOperations.jl"></picture></a><br><b><a href="https://github.com/QuantumKitHub/TensorOperations.jl">TensorOperations.jl</a></b><br><sub>Tensor contractions with the @tensor macro</sub><br><a href="https://quantumkithub.github.io/TensorOperations.jl/stable/">docs</a></td>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/MatrixAlgebraKit.jl"><img src="https://raw.githubusercontent.com/QuantumKitHub/MatrixAlgebraKit.jl/main/docs/src/assets/logo.svg" height="80" alt="MatrixAlgebraKit.jl"></a><br><b><a href="https://github.com/QuantumKitHub/MatrixAlgebraKit.jl">MatrixAlgebraKit.jl</a></b><br><sub>Extensible matrix factorizations</sub><br><a href="https://quantumkithub.github.io/MatrixAlgebraKit.jl/stable/">docs</a></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/MPSKit.jl"><img src="https://raw.githubusercontent.com/QuantumKitHub/MPSKit.jl/main/docs/src/assets/logo_readme.svg" height="80" alt="MPSKit.jl"></a><br><b><a href="https://github.com/QuantumKitHub/MPSKit.jl">MPSKit.jl</a></b><br><sub>Matrix product state algorithms</sub><br><a href="https://quantumkithub.github.io/MPSKit.jl/stable/">docs</a></td>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/PEPSKit.jl"><img src="https://raw.githubusercontent.com/QuantumKitHub/PEPSKit.jl/main/docs/src/assets/logo.svg" height="80" alt="PEPSKit.jl"></a><br><b><a href="https://github.com/QuantumKitHub/PEPSKit.jl">PEPSKit.jl</a></b><br><sub>Projected entangled pair state algorithms</sub><br><a href="https://quantumkithub.github.io/PEPSKit.jl/stable/">docs</a></td>
+<td align="center" width="33%"><a href="https://github.com/QuantumKitHub/TNRKit.jl"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QuantumKitHub/TNRKit.jl/master/docs/src/assets/logo-dark.svg"><img src="https://raw.githubusercontent.com/QuantumKitHub/TNRKit.jl/master/docs/src/assets/logo.svg" height="80" alt="TNRKit.jl"></picture></a><br><b><a href="https://github.com/QuantumKitHub/TNRKit.jl">TNRKit.jl</a></b><br><sub>Tensor network renormalization</sub><br><a href="https://quantumkithub.github.io/TNRKit.jl/stable/">docs</a></td>
+</tr>
+</table>
+
+<details>
+<summary><b>All packages</b></summary>
 
 ### Tensor Network Algorithms
 
@@ -59,15 +73,6 @@ quantum many-body systems.
 |---------|-------------|:-:|
 | [MemoizationKit.jl](https://github.com/QuantumKitHub/MemoizationKit.jl) | Memoization with bounded memory, persistent disk caching, and a live terminal dashboard | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/MemoizationKit.jl/stable/) |
 | [AlgorithmsInterface.jl](https://github.com/QuantumKitHub/AlgorithmsInterface.jl) | A small, composable interface for iterative algorithms | [![docs](https://img.shields.io/badge/docs-stable-blue)](https://quantumkithub.github.io/AlgorithmsInterface.jl/stable/) |
+</details>
 
-## Documentation
-
-Aggregated documentation for the ecosystem is available at
-[quantumkithub.github.io/QuantumKitHubDocs.jl](https://quantumkithub.github.io/QuantumKitHubDocs.jl/dev/).
-Individual package docs are linked in the tables above.
-
-## Contributing
-
-Contributions are welcome across all packages. Please open issues or pull requests on the
-relevant repository. For questions and discussions, use the
-[Julia Discourse](https://discourse.julialang.org/) with the `tensor-network` tag.
+Contributions are welcome across all packages: please open an issue or pull request on the relevant repository.
