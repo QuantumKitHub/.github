@@ -53,6 +53,7 @@
 | [TensorKitSectors.jl](https://github.com/QuantumKitHub/TensorKitSectors.jl) | Objects in fusion categories | [![docs](https://img.shields.io/badge/docs-dev-blue)](https://quantumkithub.github.io/TensorKitSectors.jl/dev/) |
 | [SUNRepresentations.jl](https://github.com/QuantumKitHub/SUNRepresentations.jl) | SU(N) Clebsch-Gordan coefficients | |
 | [CategoryData.jl](https://github.com/QuantumKitHub/CategoryData.jl) | Reading in categorical data for TensorKit | |
+| [WignerSymbols.jl](https://github.com/QuantumKitHub/WignerSymbols.jl) | Wigner symbols and related quantities | |
 | [QWignerSymbols.jl](https://github.com/QuantumKitHub/QWignerSymbols.jl) | q-deformed Wigner symbols and related quantities | |
 
 ### Extensions & Utilities
